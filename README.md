@@ -77,9 +77,9 @@ hier de naam van de pagina
 
 ### Stand van zaken
 Wat ik tot nu toe heb is een prima opzet om mijn website af te maken. Ik heb deze week alle content in de html gezet en kan ik vanaf nu alleen maar aan de slag gaan met de opmaak in css.
-
+<img src="images/week 1.1.png" width="375px" alt="Een van de 2 screen shots van week 1">
 <img src="images/week1.2.png" width="375px" alt="Tweede van de 2 screen shots van week 1">
-<img src="images/week1.1.png" width="375px" alt="Een van de 2 screen shots van week 1">
+
 
 ### Mijn Site op Github
 <a href="https://github.com/Isaabellaasmit/Airup2.0.git">Link naar mijn site</a>
