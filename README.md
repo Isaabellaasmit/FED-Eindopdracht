@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Isabella
+Isabella Smit
 
 #### Je startniveau:
 Blauw
@@ -76,7 +76,8 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat ik tot nu toe heb is een prima opzet om mijn website af te maken. Ik heb deze week alle content in de html gezet en kan ik vanaf nu alleen maar aan de slag gaan met de opmaak in css.
+<img src="images/" width="375px" alt="eerste screen shot van mijn website tot nu toe">
 
 
 ### Agenda voor meeting
