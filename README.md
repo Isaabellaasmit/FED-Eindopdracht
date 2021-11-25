@@ -79,6 +79,8 @@ hier de naam van de pagina
 Wat ik tot nu toe heb is een prima opzet om mijn website af te maken. Ik heb deze week alle content in de html gezet en kan ik vanaf nu alleen maar aan de slag gaan met de opmaak in css.
 <img src="images/" width="375px" alt="eerste screen shot van mijn website tot nu toe">
 
+### Mijn Site op Github
+<a href="https://github.com/Isaabellaasmit/Airup2.0.git">Link naar mijn site</a>
 
 ### Agenda voor meeting
 samen met je groepje opstellen
