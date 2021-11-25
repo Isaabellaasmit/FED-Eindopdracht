@@ -85,26 +85,26 @@ Wat ik tot nu toe heb is een prima opzet om mijn website af te maken. Ik heb dez
 <a href="https://github.com/Isaabellaasmit/Airup2.0.git">Link naar mijn site</a>
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+samen met je groepje opstellen (Aishani, Romy en Brent)
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Punt 1         | Punt 2          | Punt 3         | 
+| ---            | ---             | ---            | 
+| Beste optie    | Het maken van   | Het uitwerken  | 
+| voor een       | een searchbar   | van Humpty     | 
+| caroussel      |                 |                | 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Punt 1: Je kan het beste geen caroussel maken, maar je moet gebruik maken van divs en scrollen
+- Punt 2: Je kan een searchbar maken door een form toe te voegen
+- Punt 3: Je kan bij de site van Sannen bij inspecteren de code bekijken
+
 
 </details>
 
-
+Verder goed opweg, maar moet goed de opdrachten blijven maken en toepassen op mijn eigen werk.
 
 
 
