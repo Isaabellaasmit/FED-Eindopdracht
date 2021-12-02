@@ -115,7 +115,8 @@ Verder goed opweg, maar moet goed de opdrachten blijven maken en toepassen op mi
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+<img src="images/week 1.1.png" width="375px" alt="Een van de 2 screen shots van week 1">
+<img src="images/week1.2.png" width="375px" alt="Tweede van de 2 screen shots van week 1">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
