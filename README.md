@@ -114,7 +114,7 @@ Verder goed opweg, maar moet goed de opdrachten blijven maken en toepassen op mi
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben begonnen met de animaties en posities
 <img src="images/deel.een.png" width="375px" alt="Een van de 2 screen shots van week 2">
 <img src="images/deel.twee.png" width="375px" alt="Tweede van de 2 screen shots van week 3">
 
