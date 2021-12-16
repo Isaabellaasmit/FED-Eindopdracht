@@ -155,29 +155,39 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 #### Contrast
  Hier korte omschrijving (met indien nodig een afbeelding):
 Ik had hele dunne letters die overeen kwamen met de oorspronkelijke site, maar toen we gingen testen kwam ik er achter dat die letter niet zichbaar zijn voor mensen die niet goed contrast kunnen zien.
- <img src="images/deel.een.png" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast1.HEIC" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast2.HEIC" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast3.HEIC" width="375px" alt="slecht contrast">
 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 Het kan heel makkelijk worden opgelost als de dikte en grootte van een font worden aangepast
- <img src="images/aangepastfont.png" width="375px" alt="verbeterd contrast">
+ <img src="images/verbeterdcontrast.png" width="375px" alt="verbeterd contrast">
  
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Blinde vlek
+Hier korte omschrijving:
+ Mijn site is wat ik uit de test haalde nog prima te doen met een blinde vlek. Grote oppervlakten en veel witruimte.
+ <img src="images/blindevlek1.HEIC" width="375px" alt="Blinde vlekken">
+ <img src="images/blindevlek2.HEIC" width="375px" alt="Blinde vlekken">
+ <img src="images/blindevlek3.HEIC" width="375px" alt="Blinde vlekken">
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Er kan mogelijk nog rekening gehouden worden met de uitlijning, maar dan zou ik de test nog een keer moeten doen om te kijken wat het effect daarvan zal zijn.
+
+#### Parkingson 
+Hier korte omschrijving:
+ Het is niet fijn om parkingson te hebben, maar er zijn een aantal mensen die daar toch mee moeten dealen. Mijn website is toegankelijk in het gebruik van linkjes en om het te bedienen met je keyboard.
+
+Hier een omschrijving van hoe het opgelost kan worden:
+ Alleen de linkjes kunnen bedienen met je toetsenbord is niet voldoende, dus mijn website zou daar nog even goed op aangescherpt kunnen worden.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Screenreader 
+Hier korte omschrijving:
+ Medelijden met de mensen die een screenreader nodig hebben om gebruik te kunnen maken van het internet. Hoewel mijn webdite wel verstaanbaar is op de screenreader moet er meer rekening gehouden worden met andere pagina's. |Mijn hoofpagina is voornamelijk tekst en dat valt moeilijk te vernagellen met een goede alt voor afbeeldingen en samantische html.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Hier een omschrijving van hoe het opgelost kan worden
+ mocht ik meer pagina's gaan maken moet ik goed kijken of alles te bereiken valt met het gebruik van een toetsenbord.
 
 </details>
 
@@ -197,20 +207,19 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Punt 1      |  Punt 2
+| ---            | ---  
+|   een goede opmaakt voor een search balk         | Het responsive maken van onderdelen op een klein scherm
+             |  
+|            | 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- punt 1: Er kan even goed gekeken worden naar de opdrachten in pencode van Sanne, daar valt veel vandaan te halen
+- punt 2: Dat kan het beste met het gebruik van een media query
+
 
 </details>
 
@@ -224,12 +233,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+hier dit ging goed:
+ het positioneren ging erg goed. je bent er wel even mee bezig, maar het is een beetje een soort puzzel. Als je maar doorgaat, dan kom je er wel uit
+<img src="images/positioneren.png" width="375px" alt="positioneren">
+ 
+ & dit was lastig:
+ Ik kwam er moeilijk uit met javaschript ik heb een aatal dingen geprobeert, maar het lukte niet echt. Ik snap het wel, maar ik heb daar wat meer tijd voor nodig en die had ik niet. 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
-
+<img src="images/eindoplevering1.png" width="375px" alt="eindoplevering afbeeldingen">
+ <img src="images/eindoplevering2.png" width="375px" alt="eindoplevering afbeeldingen">
+ <img src="images/eindoplevering3.png" width="375px" alt="eindoplevering afbeeldingen">
+ <img src="images/eindoplevering4.png" width="375px" alt="eindoplevering afbeeldingen">
+ <img src="images/eindoplevering5.png" width="375px" alt="eindoplevering afbeeldingen">
+ <img src="images/eindoplevering6.png" width="375px" alt="eindoplevering afbeeldingen">
 </details>
 
 
@@ -243,8 +261,18 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/css/css3_shadows_box.asp 
+2. https://www.w3schools.com/howto/howto_css_sticky_element.asp 
+3. https://www.digitalocean.com/community/tutorials/css-position-sticky
+4. https://stackoverflow.com/questions/12105214/display-text-on-mouseover-for-image-in-html
+5. https://www.squarespace.com/?channel=pnb&subchannel=go&campaign=pnb-go-row_weu-en-website_general-phr&subcampaign=(website-alone_website_phr)&&utm_source=google&utm_medium=pnb&utm_campaign=pnb-go-row_weu-en-website_general-phr&utm_term=website&gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSxAviMXTj_I7-SEaqJiglkP9aTESAfEd6vBuutPusCBkkD-2MzI18aAsmzEALw_wcB&gclsrc=aw.ds 
+6. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow 
+7. https://stackoverflow.com/questions/53422027/how-to-use-downloaded-image-or-fontzip-file-in-css
+8. https://stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has 
+9. https://www.internetingishard.com/html-and-css/forms/#email-input-fields
+10. https://dlo.mijnhva.nl/d2l/le/content/324289/Home 
+11. https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode
+12. https://www.w3schools.com/css/css_background_image.asp
+13. https://www.squarespace.com/?channel=pnb&subchannel=go&campaign=pnb-go-row_weu-en-website_general-phr&subcampaign=(website-alone_website_phr)&&utm_source=google&utm_medium=pnb&utm_campaign=pnb-go-row_weu-en-website_general-phr&utm_term=website&gclid=Cj0KCQiAhf2MBhDNARIsAKXU5GSxAviMXTj_I7-SEaqJiglkP9aTESAfEd6vBuutPusCBkkD-2MzI18aAsmzEALw_wcB&gclsrc=aw.ds
 
 </details>
