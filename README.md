@@ -201,7 +201,10 @@ Hier een omschrijving van hoe het opgelost kan worden
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben vooral bezig met alles nog op de goede plek zetten en als ik nog tijd over heb zou ik graag nog iets gaafs willen maken.
+  <img src="images/progress.1.png" width="375px" alt="progress week 4">
+ <img src="images/progress2.png" width="375px" alt="progress week 4">
+ <img src="images/progress.3.png" width="375px" alt="progress week 4">
 
 
 ### Agenda voor meeting
