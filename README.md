@@ -124,20 +124,19 @@ Ik ben begonnen met de animaties en posities
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Punt 1                    | Punt 2                        | Punt 3                                       | student 4        |
+| ---                       | ---                           | ---                                          | 
+| Kan een nav in de footer? | Kunnen er 2 h2 in een article | is webkit-sticky nodig voor position sticky? | 
+|                           |                               |                                              | dit wil ik zeker |
+|                           |                               |                                              |                  |
+ 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- punt 1: Het beste is om een nav in de header te doen en dan later te positioneren
+- punt 2: Nee, het kan op een andere misschien betere manier worden opgelost
+- punt 3: Webkit-sticky is er om verschillende browsers te ondersteunen
 
 </details>
 
@@ -153,12 +152,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Contrast
+ Hier korte omschrijving (met indien nodig een afbeelding):
+Ik had hele dunne letters die overeen kwamen met de oorspronkelijke site, maar toen we gingen testen kwam ik er achter dat die letter niet zichbaar zijn voor mensen die niet goed contrast kunnen zien.
+ <img src="images/deel.een.png" width="375px" alt="slecht contrast">
+
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
+Het kan heel makkelijk worden opgelost als de dikte en grootte van een font worden aangepast
+ <img src="images/aangepastfont.png" width="375px" alt="verbeterd contrast">
+ 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
