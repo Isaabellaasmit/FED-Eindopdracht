@@ -39,13 +39,13 @@ Ik hoop op beide te kunnen focussen om zo het meest te leren (kies uit responsiv
  Ik ga de site van <a href="https://nl.air-up.com/">Air Up</a> als voorbeeld nemen.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Home pagina  
 <img src="images/pagina1.1.png" width="375px" alt="omschrijving van de pagina">
  <img src="images/pagina1.2.png" width="375px" alt="omschrijving van de pagina">
  <img src="images/pagina1.3.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Duurzaam pagina  
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
