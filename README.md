@@ -162,7 +162,7 @@ Ik had hele dunne letters die overeen kwamen met de oorspronkelijke site, maar t
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 Het kan heel makkelijk worden opgelost als de dikte en grootte van een font worden aangepast
- 
+ <img src="images/verbeterdcontrast.png" width="375px" alt="Verbeterd contrast">
  
 #### Blinde vlek
 Hier korte omschrijving:
