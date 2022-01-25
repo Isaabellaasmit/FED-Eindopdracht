@@ -155,9 +155,9 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 #### Contrast
  Hier korte omschrijving (met indien nodig een afbeelding):
 Ik had hele dunne letters die overeen kwamen met de oorspronkelijke site, maar toen we gingen testen kwam ik er achter dat die letter niet zichbaar zijn voor mensen die niet goed contrast kunnen zien.
- <img src="images/laagcontrast1.HEIC" width="375px" alt="slecht contrast">
- <img src="images/laagcontrast2.HEIC" width="375px" alt="slecht contrast">
- <img src="images/laagcontrast3.HEIC" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast.1.png" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast.2.png" width="375px" alt="slecht contrast">
+ <img src="images/laagcontrast.3.png" width="375px" alt="slecht contrast">
 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
@@ -168,8 +168,8 @@ Het kan heel makkelijk worden opgelost als de dikte en grootte van een font word
 Hier korte omschrijving:
  Mijn site is wat ik uit de test haalde nog prima te doen met een blinde vlek. Grote oppervlakten en veel witruimte.
  <img src="images/blindevlek.1.png" width="375px" alt="Blinde vlekken">
- <img src="images/blindevlek2.HEIC" width="375px" alt="Blinde vlekken">
- <img src="images/blindevlek3.HEIC" width="375px" alt="Blinde vlekken">
+ <img src="images/blindevlek.2.png" width="375px" alt="Blinde vlekken">
+ <img src="images/blindevlek.3.png" width="375px" alt="Blinde vlekken">
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 Er kan mogelijk nog rekening gehouden worden met de uitlijning, maar dan zou ik de test nog een keer moeten doen om te kijken wat het effect daarvan zal zijn.
