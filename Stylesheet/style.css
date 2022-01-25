@@ -1,0 +1,1612 @@
+
+/****************************************************************/
+/*                      Basis document styling                  */
+/****************************************************************/
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--color-background);
+}
+
+
+
+
+
+
+
+/****************************************************************/
+/*                  ALGEMENE CUSTOM PROPERTIES                  */
+/****************************************************************/ 
+
+:root {
+    --color-gradient: linear-gradient(to bottom right, #1E1638, #251357);
+    --color-background: white; 
+    --color-background-lightcontrast: white;
+    --color-accentP-backgroud: #672aa3;
+    --color-accentP2-background: #4c2079;
+    --color-accentP3-background: #32154e;
+    --color-profile: #F6F6F6;
+
+    --color-light-text: white;
+    --color-lightlight-text: white;
+    --color-white-text: white;
+    --color-dark-text: black;
+    --color-link: #FC442F;
+    --color-link-hover: #651b13;
+    --color-accent-o: #F94431;
+    --color-light-accent: white;
+    --color-light-background: #F6F6F6;
+    --color-white-background: white;
+
+    --color-shawow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --color-accent-email: #f0c2bc;
+}
+
+
+/***           Dark mode           ***/
+/*************************************/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-gradient: linear-gradient(to bottom right, #beabf3, #7155c0);
+        --color-background: rgb(32, 32, 32); 
+        --color-background-lightcontrast: rgb(32, 32, 32);
+        --color-accentP-backgroud: #7a37bd;
+        --color-accentP2-background: #4c2079;
+        --color-accentP3-background: #32154e;
+        --color-profile: #cfc8e2;
+    
+        --color-light-text: rgb(0, 0, 0);
+        --color-lightlight-text: white;
+        --color-white-text: white;
+        --color-dark-text: rgb(255, 255, 255);
+        --color-link: #fd6959;
+        --color-link-hover: #a82c1f;
+        --color-accent-o: #f5513e;
+        --color-light-accent: white;
+        --color-light-background: #111111;
+        --color-white-background: rgb(32, 32, 32);
+    
+        --color-shawow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        --color-accent-email: #f0c2bc;
+    }
+ }
+
+
+/****************************************************************/
+/*                         Header styling                       */
+/****************************************************************/
+
+
+/***           Navigatie           ***/
+/*************************************/
+header nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav ul {
+    background-color: var(--color-accentP-backgroud);
+
+    display: flex;
+    list-style: none;
+
+    justify-content: space-around;
+    text-align: center;
+}
+
+header nav ul li {
+    display: flex;
+
+    flex-direction: column;
+    text-align: center;
+}
+
+header nav ul li img {
+    width: 2em;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul li a {
+    color: var(--color-light-text);
+
+    text-decoration: none;
+}
+
+
+header {
+    position: relative;
+    
+    margin: .5em;
+    padding: .2em;
+
+    background-color: var(--color-background);
+}
+
+header p {
+    color: var(--color-dark-text);
+}
+
+header h1 {
+    position: absolute;
+
+    top: 1.5em;
+}
+
+header h1 img {
+    width: 2.3em;
+    height: auto;
+} 
+
+header section {
+    position: fixed;
+    top: 3.5em;
+    right: 1em;
+
+    background-color: var(--color-profile);
+    border-radius: 15px;
+    box-shadow: var(--color-shawow);
+
+    padding: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+header section img {
+    width: 3.7em;
+    height: auto;
+}
+
+/************************************************************************/
+/*                           Main styling  PAGINA 1                     */
+/************************************************************************/
+
+main.index>img {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-grow: 1;
+    top: -3em;
+}
+
+
+
+main.index h3 {
+    position: sticky;
+    top: 0;
+
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+    font-size: 1.5em;
+
+    color: var(--color-dark-text);
+    background-color: var(--color-background);
+}
+
+/***         Article 1 Caroussel         ***/
+/*******************************************/
+
+
+/*
+@keyframes eersteTekst {
+    0% {
+        transform: translate(0, 0);
+        transform: rotate(2deg);
+        }
+    40% {
+        transform: translate(0, 0);
+        }
+    70% {
+        transform: translate(0, -8em);
+    }
+    100% {
+        transform: translate(0, -12em);
+
+    }
+    }
+
+@keyframes tweedeTekst {
+    0% {
+        transform: translate(0, 0em);
+        transform: rotate(2deg);
+    }
+    40% {
+        transform: translate(0, 0);
+        transform: rotate(2deg);
+    }
+    50% { 
+        transform: translate(0, 3em);
+        transform: rotate(2deg);
+    }
+    80% {
+        transform: translate(0, 8.5em);
+    }
+    100% {
+        transform: translate(0, 8.5em);
+    }
+}
+*/
+
+
+/***   Article 1 'Cadeau waar je iemand bij mee maakt'    ***/
+/************************************************************/
+main.index article:first-of-type {
+    background-image: var(--color-gradient);
+    color: var(--color-light-text);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 2.2em;
+    padding-bottom: 5em;
+    margin-top: -2.2em;
+    margin-bottom: 1em;
+
+    transform: skewY(-5deg);
+}
+
+main.index article:first-of-type h2, main.index article:first-of-type p, main.index article:first-of-type a {
+    transform: skewY(5deg);
+}
+
+main.index article:first-of-type h2 {
+    padding-bottom: .5em;
+
+    animation-name: tweedeTekst; 
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+main.index article:first-of-type p {
+    animation-name: tweedeTekst; 
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+main.index article:first-of-type a {
+    background-color: var(--color-accent-o);
+    color: var(--color-white-text);
+    text-decoration: none;
+    
+    padding: .5em;
+    padding-right: .8em;
+    padding-left: .8em;
+    margin-top: .6em;
+    margin-left: 1em;
+    border-radius: 20px;
+
+    transition: 1s;
+}
+
+main.index article:first-of-type a:hover {
+    cursor: pointer;
+
+    box-shadow: var(--color-shawow);
+    border: solid 1px var(--color-light-accent);
+    
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+
+    transition: 1s;
+}
+
+
+main.index article:first-of-type a:focus {
+    cursor: pointer;
+
+    box-shadow: var(--color-shawow);
+    border: solid 1px var(--color-light-accent);
+    
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+
+    transition: 1s;
+}
+
+
+
+/*
+main.index article:first-of-type section:nth-of-type(2) p{
+    animation-name: eersteTekst; 
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+*/
+
+
+
+
+
+/***   Article 'Dit is Air Up'    ***/
+/************************************/
+main.index article:nth-of-type(2) {
+    margin-top: 3em;
+
+    padding: 2em;
+    padding-bottom: 5em;
+    margin-top: .5em;
+
+    color: var(--color-dark-text);
+}
+
+
+main.index article:nth-of-type(2) p {
+    font-weight: 400;
+    color: var(--color-dark-text);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main.index>section {
+    font-weight: 400;
+    text-align: center;
+
+    color: var(--color-dark-text);
+}
+
+
+@keyframes info-img {
+    0% {
+      transform:scale(1);
+    }
+    90% {
+      transform:scale(2);
+    }
+    100% {
+       transform:scale(1);
+    }
+  }
+
+
+main.index>section img:hover {
+    animation-name: info-img;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+main.index>section img {
+    width: 8em;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.index>section section:first-child, main.index>section section:nth-of-type(2), main.index>section section:nth-of-type(3) {
+    display: block;
+
+    padding: 1em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    margin: 1em;
+}
+
+main.index>section a {
+    display: block;
+
+    position: relative;
+    
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--color-accent-o);
+
+    margin: 1em;
+    padding: 1em;
+
+    transition: .3s;
+}
+
+
+main.index>section a:hover {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index>section a:focus {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index>section a::before {
+    content: "";
+    background-color: var(--color-accent-o);  
+    
+    position: absolute;
+
+    left: .5em;
+    right: .5em;
+    bottom: -.10em;
+
+    height: .25em;
+
+    border-radius: .125em;
+
+    transform: scaleX(0);
+    transition: .3s;
+}
+
+main.index>section a:hover::before {
+    transform: scaleX(.4);
+}
+
+main.index>section a:focus::before {
+    transform: scaleX(.4);
+}
+  
+
+
+
+
+
+
+
+
+/***         Article 'Hoe werkt Air up'          ***/
+/***************************************************/
+main.index article:nth-of-type(3) {
+    padding: 2em;
+
+    color: var(--color-dark-text);
+}
+
+main.index article:nth-of-type(3) p {
+    font-weight: 400;
+
+    color: var(--color-dark-text);
+}
+
+main.index article:nth-of-type(3) a {
+    position: relative;
+    
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--color-link);
+
+    top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    transition: .3s;
+}
+
+main.index article:nth-of-type(3) a::before {
+    content: "";
+    background-color: var(--color-accent-o);  
+    
+    position: absolute;
+
+    left: .5em;
+    right: .5em;
+    bottom: -.10em;
+
+    height: .25em;
+
+    border-radius: .125em;
+
+    transform: scaleX(0);
+    transition: .3s;
+}
+
+main.index article:nth-of-type(3) a:hover {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index article:nth-of-type(3) a:hover::before{
+    transform: scaleX(1.2);
+}
+
+main.index article:nth-of-type(3) a:focus {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index article:nth-of-type(3) a:focus::before{
+    transform: scaleX(1.2);
+}
+
+main.index article:nth-of-type(3) img {
+    width: 100%;
+    height: auto;
+
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+/***         Article 'Top producten'          ***/
+/************************************************/
+main.index article:nth-of-type(4) {
+    padding: 2em;
+    background-color: var(--color-white-background);
+}
+
+main.index article:nth-of-type(4) section {
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+main.index article:nth-of-type(4) img {
+    width: 85%;
+    height: auto;
+
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.index article:nth-of-type(4) div div {
+    display: flex;
+    justify-content: space-evenly;
+
+    color: var(--color-dark-text);
+
+    margin: 1em;
+}
+
+main.index article:nth-of-type(4) div div p:nth-of-type(2), p:nth-of-type(4), p:nth-of-type(6) {
+    padding-left: 1em;
+    padding-right: 0;
+    margin-right: 0;
+
+    color: var(--color-accentP-backgroud);
+}
+
+
+
+
+/***          Button 'In winkelwagen' opmaak           ***/
+
+main.index article:nth-of-type(4) div button {
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+
+    padding: .7em;
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 2em;
+    border: none;
+
+    background-color: var(--color-accentP-backgroud);
+    color: var(--color-lightlight-text);
+
+    display: flex;
+    flex-flow: 1;
+
+    transition: .6s;
+}
+
+main.index article:nth-of-type(4) div button:hover {
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+
+    font-weight: 900;
+}
+
+main.index article:nth-of-type(4) div button:focus {
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+
+    font-weight: 900;
+}
+
+
+
+/***          JS button 'In winkelwagen           ***/
+
+main.index article:nth-of-type(4) div button.verander1 {
+    background-color:var(--accent-background-color);
+    border-radius:2em;
+    color:var(--accent-color);
+  }
+
+main.index article:nth-of-type(4) div button.verander2 {
+    background-color:var(--accent-background-color);
+    border-radius:2em;
+    color:var(--accent-color);
+  }
+
+main.index article:nth-of-type(4) div button.verander3 {
+    background-color:var(--accent-background-color);
+    border-radius:2em;
+    color:var(--accent-color);
+}
+
+header section.verander1, header section.verander2, header section.verander3 {
+    background-color: var(--color-accentP-backgroud);
+    color: var(--color-light-text);
+}
+
+header section.verander2 {
+    background-color: var(--color-accentP2-background);
+    color: var(--color-light-text)
+}
+
+header section.verander3 {
+    background-color: var(--color-accentP3-background);
+    color: var(--color-light-text)
+}
+
+
+
+
+/***           Article 'Meer info'            ***/
+/************************************************/
+main.index article:nth-of-type(5) h3 {
+    padding-left: 2em;
+}
+
+main.index article:nth-of-type(5) ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+main.index article:nth-of-type(5) ul li {
+    flex-basis: 50%;
+    list-style: none;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main.index article:nth-of-type(5) ul li img {
+    width: 90%;
+    height: auto;
+}
+
+main.index article:nth-of-type(5) ul li a {
+    display: block;
+    position: relative;
+
+    font-weight: 400;
+    color: var(--color-link);
+
+    margin: .8em;
+    margin-bottom: 2em;
+    padding-bottom: .3em;
+    text-align: center;
+    justify-content: center;
+
+    text-decoration: none;
+    transition: 3s;
+}
+
+main.index article:nth-of-type(5) ul li a::before {
+    content: "";
+    background-color: var(--color-accent-o);  
+    
+    position: absolute;
+
+    left: .5em;
+    right: .5em;
+    bottom: -.10em;
+
+    height: .25em;
+
+    border-radius: .125em;
+
+    transform: scaleX(0);
+    transition: .3s;
+}
+
+main.index article:nth-of-type(5) ul li a:hover {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index article:nth-of-type(5) ul li a:hover::before{
+    transform: scaleX(0.7);
+}
+
+main.index article:nth-of-type(5) ul li a:focus {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+main.index article:nth-of-type(5) ul li a:focus::before{
+    transform: scaleX(0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************/
+/*                           main styling  PAGINA 2                     */
+/************************************************************************/
+main.duurzaamheid h2:first-of-type {
+    background-color: var(--color-accentP-backgroud);
+    color: var(--color-light-text);
+
+    font-size: 1em;
+    padding: 4em;
+    padding-top: 6em;
+    padding-left: 2em;
+    text-align: start;
+}
+
+
+/***           Navigatie info            ***/
+/*******************************************/
+main.duurzaamheid>aside {
+    padding: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    font-size: .8em;
+}
+
+main.duurzaamheid aside p {
+    color: var(--color-dark-text);
+}
+
+main.duurzaamheid>aside a {
+    padding: .8em;
+
+    text-decoration: none;
+    color: var(--color-dark-text);
+
+    transition: .6s;
+}
+
+main.duurzaamheid>aside a:hover {
+    text-decoration: underline var(--color-accent-o);
+    color: var(--color-link);
+
+    transition: .6s;
+}
+
+main.duurzaamheid>aside a:focus {
+    text-decoration: underline var(--color-accent-o);
+    color: var(--color-link);
+
+    transition: .6s;
+}
+
+
+/***                Titel H2                ***/
+/**********************************************/
+main.duurzaamheid h2:nth-of-type(2) {
+    text-align: center;
+    font-size: 1.3em;
+
+    position: sticky;
+    top: 0;
+
+    color: var(--color-dark-text);
+    
+    background-color: var(--color-background);
+}
+
+/***              Hoofd content             ***/
+/**********************************************/
+main.duurzaamheid article {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    color: var(--color-dark-text);
+}
+
+main.duurzaamheid article img {
+    width: 100%;
+    height: auto;
+}
+
+main.duurzaamheid article section {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+main.duurzaamheid article section p {
+    text-align: start;
+    font-size: .9em;
+}
+
+main.duurzaamheid article section h3, main.duurzaamheid>section h3 {
+    text-align: start;
+
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+main.duurzaamheid article section:nth-of-type(2) {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+main.duurzaamheid article:nth-of-type(2) section:nth-of-type(2) {
+    margin-bottom: 3em;
+}
+
+
+
+/***              Java Buttons            ***/
+/**********************************************/
+main.duurzaamheid>section {
+    background-color: var(--color-accent-o);
+
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+main.duurzaamheid>section h3 {
+    color: var(--color-dark-text);
+}
+
+main.duurzaamheid>section p {
+    font-weight: 300;
+    margin-top: .6em;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    color: var(--color-dark-text);
+}
+
+main.duurzaamheid>section button {
+    background-color: var(--color-accent-o);
+
+    padding: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    border: solid 3px var(--color-light-accent);
+    border-radius: 1em;
+    box-shadow: var(--color-shawow);
+
+    transition: 1.5s;
+}
+
+main.duurzaamheid>section button:hover {
+    background-color: var(--color-accentP-backgroud);
+
+    transition: .8s;
+}
+
+main.duurzaamheid>section button:focus {
+    background-color: var(--color-accentP-backgroud);
+
+    transition: .8s;
+}
+
+main.duurzaamheid>section button img {
+    width: 4em;
+    height: auto;
+}
+
+main.duurzaamheid>section>section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/***              Bom animatie            ***/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body.glitch{
+    font-family: 'Press Start 2P', cursive;
+    background: url("https://media2.giphy.com/media/l0EoAfw1F3yZhTF6M/giphy.gif");
+}
+body.glitch *{
+    transform: translate(-50%,-50%);
+    animation-name: bomb;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+
+@keyframes bomb {
+    0% {
+        transform:scale(0);
+    }
+    50% {
+        transform:scale(2);
+    }
+    100%{
+        transform:scale(0);
+    }
+}
+
+
+/***         Confetti animatie        ***/
+.html {
+    overflow:hidden;
+
+    width:100%;
+    height:100%;
+}
+
+.shot {
+    background-image:url("https://media.giphy.com/media/PMV7yRpwGO5y9p3DBx/source.gif");
+    background-size:contain;color:white
+}
+    
+
+
+
+
+/****************************************************************/
+/*                         Footer styling                       */
+/****************************************************************/
+
+
+
+/***        4 voordelen voor de klant         ***/
+/************************************************/
+footer section:first-child ul {
+    margin-top: 1em;
+
+    background-color: var(--color-background);
+}
+
+footer section:first-child ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: .5em;
+
+    font-size: .9em;
+    color: var(--color-dark-text);
+}
+
+footer section:first-child ul li img {
+    width: 2em;
+    height: auto;
+
+    margin-right: 1em;
+    margin-left: 8%;
+}
+
+
+
+
+
+/***          Vectoren voor betalen           ***/
+/************************************************/
+footer section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: .8em;
+    margin-right: .8em;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+
+    background-color: var(--color-background-lightcontrast);
+}
+
+footer section:nth-of-type(2) img {
+    width: 3em;
+    height: auto;
+}
+
+
+
+
+/***          Blijf up-to-date over air up           ***/
+/*******************************************************/
+footer section:nth-of-type(3) article:first-child {
+    background-color: var(--color-accentP-backgroud);
+    color: var(--color-light-text);
+
+    margin-top: 2em;
+
+    transform: skewY(-5deg);
+}
+
+footer section:nth-of-type(3)>article h2 {
+    padding-top: 2em;
+    padding-bottom: .5em;
+
+    font-size: 2em;
+
+    text-align: center;
+    transform: skewY(5deg);
+}
+
+
+/***          Form Nieuwsbrief           ***/
+
+footer section:nth-of-type(3)>article form {
+    padding-bottom: 2em;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: skewY(5deg);
+}
+
+footer section:nth-of-type(3)>article form label:first-of-type {
+    font-size: .9em;
+    text-align: center;
+
+    padding-bottom: .7em;
+    padding-right: 1.5em;
+    padding-right: 1.5em;
+}
+
+footer section:nth-of-type(3)>article form input#email {
+    padding-bottom: .7em;
+    padding: 1em;
+    margin-top: .6em;
+
+    border-radius: 4px;
+    border: solid 1px var(--color-light-accent);
+
+    width: 70%;
+}
+
+footer section:nth-of-type(3)>article form input#email:focus {
+    border: solid 2px var(--color-accent-o);
+
+    background-color: var(--color-accent-email);
+    color: var(--color-dark-text);
+
+    font-weight: 400;
+}
+
+footer section:nth-of-type(3)>article form label:nth-of-type(2) {
+    font-size: .7em;
+
+    margin-top: 1em;
+}
+
+footer section:nth-of-type(3)>article form input:nth-of-type(2) {
+    margin: 1em;
+    padding: .5em;
+
+    border-radius: 3em;
+    border: solid 2px var(--color-accent-o);
+
+    color: var(--color-link);
+    font-size: 1.2em;
+
+    transition: .4s;
+}
+
+footer section:nth-of-type(3)>article form input:nth-of-type(2):hover {
+    transform: translateY(-.5em);
+    cursor: pointer;
+
+    box-shadow: var(--color-shawow);
+    border: solid 1px var(--color-light-accent);
+
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+}
+
+footer section:nth-of-type(3)>article form input:nth-of-type(2):focus {
+    transform: translateY(-.5em);
+    cursor: pointer;
+
+    box-shadow: var(--color-shawow);
+    border: solid 1px var(--color-light-accent);
+
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+}
+
+
+
+/***          Article Social Media linkjes           ***/
+/*******************************************************/
+footer section:nth-of-type(3) article:nth-of-type(2) {
+    padding-top: 2em;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) img {
+    width: 4em;
+    height: auto;
+
+    margin-left: 2em;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:first-of-type aside {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:first-of-type img {
+    padding: .8em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: auto;
+    height: 3em;
+
+    border: solid 1px var(--color-accent-o);
+    border-radius: 5px;
+}
+
+
+
+/***          Opmaak linkjes           ***/
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.2em;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a {
+    position: relative;
+    
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--color-link);
+
+    top: 1em;
+    padding-top: -.1em;
+    padding-bottom: 1em;
+
+    transition: .3s;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a::before {
+    content: "";
+    background-color: var(--color-accent-o);  
+    
+    position: absolute;
+
+    left: .5em;
+    right: .5em;
+    bottom: -.10em;
+
+    height: .25em;
+
+    border-radius: .125em;
+
+    transform: scaleX(0);
+    transition: .3s;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a:hover {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a:hover::before{
+    transform: scaleX(1.2);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a:focus {
+    font-weight: 900;
+    color: var(--color-link-hover);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) a:focus::before{
+    transform: scaleX(1.2);
+}
+
+
+
+/***          Overige 3 linkjes           ***/
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:nth-of-type(2) {
+    background-color: var(--color-light-background);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:nth-of-type(2) a {
+    margin: .7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .5em;
+    text-align: center;
+
+    border: solid 1.5px var(--color-accent-o);
+    border-radius: 1.2em;
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    transition: .6s;
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:nth-of-type(2) a:hover {
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:nth-of-type(2) a:focus {
+    background-color: var(--color-accent-o);
+    color: var(--color-light-text);
+}
+
+footer section:nth-of-type(3) article:nth-of-type(2) section:nth-of-type(2) a::before {
+    background-color: var(--color-light-background);
+
+    transition: .6s;
+}
+
+
+
+/***                 Laatste linkjes                 ***/
+/*******************************************************/
+footer article:last-of-type ul, footer article:last-of-type p {
+    background-color: var(--color-accent-o);
+}
+
+footer article:last-of-type ul {
+    display: flex;
+    list-style: none; 
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+
+    padding: 1em;    
+}
+
+footer article:last-of-type ul li a {    
+    text-decoration: none;
+    font-weight: 400;
+    font-size: .9em;
+    color: var(--color-white-text);
+
+    padding-left: 1em;
+    padding-right: 1em;
+    border-right: solid 2px var(--color-light-accent);
+
+    transition: .3s;
+}
+
+footer article:last-of-type ul li a:hover {
+    background-color: var(--color-light-background);
+    color: var(--color-link);
+
+    transition: .3s;
+}
+
+footer article:last-of-type ul li a:focus {
+    background-color: var(--color-light-background);
+    color: var(--color-link);
+
+    transition: .3s;
+}
+
+/***                 Rechten air up                 ***/
+/*******************************************************/
+footer article:last-of-type p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5em;
+    padding: 2em;
+
+    color: var(--color-light-text);
+
+    font-size: .8em;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************/
+/*                         Media Query                          */
+/****************************************************************/
+
+@media (min-width: 800px) {
+   
+    /*        Alle kopjes        */
+    /*****************************/
+    main.index h3 {
+        text-align: center;
+    }
+
+
+    /*      Perfecte cadeau      */
+    /*****************************/
+    main.index article:first-of-type {
+        transform: skewY(-3deg);
+    }
+    
+    main.index article:first-of-type h2, main.index article:first-of-type p, main.index article:first-of-type a {
+        transform: skewY(3deg);
+    }
+
+
+    /*       Dit is Air Up       */
+    /*****************************/
+    main.index>section  {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    /*       Hoe werk air up      */
+    /******************************/
+    main.index article:nth-of-type(3) img {
+        width: 50%;
+        height: auto;
+    }
+
+    main.index article:nth-of-type(3) section {
+        display: flex;
+
+        background-color: var(--color-light-background);
+    }
+
+    main.index article:nth-of-type(3) p {
+        margin: 2em;
+        text-align: start;
+    }
+
+    main.index article:nth-of-type(3) div {
+        justify-content: center;
+        text-align: center;
+    }
+
+    main.index article:nth-of-type(3) a {
+        margin: 2em;
+        padding: 2em;
+    }
+
+
+
+    /*       Link underline (Lees meer)     */
+    /****************************************/
+    main>section a:hover::before, article:nth-of-type(3) a:hover::before, article:nth-of-type(5) ul li a:hover::before {
+        transform: scaleX(.8);
+    }
+
+    main>section a:hover::before, article:nth-of-type(3) a:hover::before, article:nth-of-type(5) ul li a:focus:before {
+        transform: scaleX(.8);
+    }
+
+
+
+    /*        Top producten        */
+    /*******************************/
+    main.index article:nth-of-type(4) section{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main.index article:nth-of-type(4) img {
+        width: 17em;
+        height: auto;
+    }
+
+
+    /*           Meer info         */
+    /*******************************/
+    main article:nth-of-type(5) ul {
+        display: flex;
+        
+    }
+    
+    main article:nth-of-type(5) ul li {
+        list-style: none;
+
+        flex-basis: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main article:nth-of-type(5) ul li img {
+        width: 11em;
+        height: auto;
+
+        margin-top: 1em;
+    }
+
+    main article:nth-of-type(5) ul li a {
+        display: flex;
+    }
+
+
+    /*           4 voordelen         */
+    /*********************************/
+    footer section ul {
+        display: flex;
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+
+        margin: 0;
+    }
+
+    footer section ul li {
+        flex-basis: 50%;
+    }
+
+
+
+    /*           Blijf up-to-date & Social Media linkjes         */
+    /*************************************************************/
+    footer section:nth-of-type(3) {
+        display: flex;
+    }
+
+    footer section:nth-of-type(3) article:first-of-type {
+        transform: skewY(0deg);
+        flex-basis: 50%;
+    }
+
+    footer section:nth-of-type(3) article:first-of-type h2, footer section:nth-of-type(3) article:first-of-type form {
+        transform: skewY(0deg);
+    }
+
+    footer section:nth-of-type(3) article:nth-of-type(2) {
+        margin-top: 2em;
+        flex-basis: 50%;
+
+        background-color: var(--color-light-background);
+    }
+     
+    
+
+
+
+
+
+
+    /*******************************************************************/
+    /*                           Styling  PAGINA 2                     */
+    /*******************************************************************/
+
+
+    /***           Titel duurzaamheid           ***/
+    /**********************************************/
+    main.duurzaamheid h2:first-of-type {
+        background-color:var(--color-accentP-backgroud);
+        color: var(--color-light-text);
+    
+        font-size: 1.3em;
+        padding: 4em;
+        text-align: center;
+    }
+
+
+    /*           Hoofd content         */
+    /***********************************/
+    main.duurzaamheid article {
+        display: flex;
+        
+        flex-direction: unset;
+        justify-content: center;
+        text-align: start;
+        
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    
+
+    main.duurzaamheid article img {
+        width: 100%;
+        height: auto;
+    }
+    
+    main.duurzaamheid article section p {
+        text-align: start;
+        font-size: .9em;
+    }
+    
+    main.duurzaamheid article section h3 {
+        text-align: start;
+    
+        padding-top: 1em;
+        padding-bottom: 2em;
+    }
+    
+    main.duurzaamheid article section:nth-of-type(2) {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 2em;
+    }
+    
+    main.duurzaamheid article:nth-of-type(2) section:nth-of-type(2) {
+        margin-bottom: 3em;
+    }
+
+
+
+    /*           Java Buttons          */
+    /***********************************/
+    main.duurzaamheid>section h3 {    
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
