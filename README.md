@@ -167,7 +167,7 @@ Het kan heel makkelijk worden opgelost als de dikte en grootte van een font word
 #### Blinde vlek
 Hier korte omschrijving:
  Mijn site is wat ik uit de test haalde nog prima te doen met een blinde vlek. Grote oppervlakten en veel witruimte.
- <img src="images/blindevlek1.png" width="375px" alt="Blinde vlekken">
+ <img src="images/blindevlek.1.png" width="375px" alt="Blinde vlekken">
  <img src="images/blindevlek2.HEIC" width="375px" alt="Blinde vlekken">
  <img src="images/blindevlek3.HEIC" width="375px" alt="Blinde vlekken">
 
